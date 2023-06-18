@@ -1,0 +1,25 @@
+# Artifact Hub package metadata file
+version: 0.1.0
+name: k8s-sa
+displayName: k8s-sa
+createdAt: 2023-06-18T00:00:00Z
+description: Kubernetes Service Account Policies
+category: security
+license: Apache-2.0
+homeURL: https://github.com/akshay196/kubearmor-policy-ah-demo/tree/main/k8s-sa
+keywords:
+  - kubearmor
+  - policy
+  - kubernetes
+links:
+  - name: Source
+    url: https://github.com/akshay196/kubearmor-policy-ah-demo/tree/main/k8s-sa
+changes:
+  - kind: added
+    description: Initial release
+provider:
+  name: KubeArmor community
+readme: |-
+  This package contains the following policies:
+
+  - block-k8s-sa-token
